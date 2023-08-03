@@ -32,7 +32,7 @@ in order to select a valid one on the next try.
     -> (TCP/UDP) Payload length
     -> IP version (IPv4 or IPv6)
 
-# In case (ii), when packet capturing of file ends, the program prints the following statistics
+### In case (ii), when packet capturing of file ends, the program prints the following statistics
     a. Total number of network flows captured​.
     b. Number of TCP network flows captured.
     c. Number of UDP network flows captured.
