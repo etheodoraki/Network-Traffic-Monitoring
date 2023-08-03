@@ -16,13 +16,13 @@ to clean: >make clean (	rm -rf monitor )
 If the Network interface entered doesn't exist, a list of all available devices will be printed 
 in order to select a valid one on the next try.
 
-# (i) On the first option -i
+### (i) On the first option -i
     the packet capture is implemented using pcap_open_live for the chosen device
 
-# (ii) On the first option -r
+### (ii) On the first option -r
     the packet capture is implemented using pcap_open_offline for the chosen file
 
-# in each case info for each TCP or UDP packet is printed on termninal
+### in each case info for each TCP or UDP packet is printed on termninal
     -> source IP 
     -> destination IP
     -> source Port
